@@ -12,30 +12,33 @@
 
         <title>Harry Potter Fan Club</title>
         <link rel="icon" href="./img/logopagina.jpg"><!--Fabicon de la página web-->
+        <link rel="stylesheet" type="text/css" href="./css/common.css" />
+        <link rel="stylesheet" type="text/css" href="./css/index.css" /><!--Link a l'arxiu CSS--> 
     </head>
     <body>
       <header>
-        <img src="./img/logofanzone.jpg" alt="Logo del club de fans" width="700" height="241">
-    </header>
+        <!-- <img src="./img/logofanzone.jpg" alt="Logo del club de fans" width="700" height="241"> -->
+      </header>
         
-        <nav> <!--Menú de navegación, _self abre enlaces en la misma pestaña-->
-            
-          <a href="./index.html" target="_self">Inicio</a>
-          <a>|</a>
-          <a href="./web/general.html" target="_self">General</a>
-          <a>|</a>
-          <a href="./web/fotos.html" target="_self">Fotos</a>
-          <a>|</a>
-          <a href="./web/videos.html" target="_self">Vídeos</a>
-          <a>|</a>
-          <a href="./web/agenda.html" target="_self">Agenda</a>
-          <a>|</a>
-          <a href="./web/contacte.html" target="_self">Contacto</a>
-          
+        <nav> <!--Menú de navegación, _self abre enlaces en la misma pestaña--><!--Tendría que ir como ul o ol y luego se arregla con CSS para q se vea bonito-->
+          <ul>
+            <li><a href="./index.html" target="_self">Inicio</a></li>
+
+            <li><a href="./web/general.html" target="_self">General</a></li>
+
+            <li><a href="./web/fotos.html" target="_self">Fotos</a></li>
+
+            <li><a href="./web/videos.html" target="_self">Vídeos</a></li>
+
+            <li><a href="./web/agenda.html" target="_self">Agenda</a></li>
+
+            <li><a href="./web/contacte.html" target="_self">Contacto</a></li>
+          </ul> 
       </nav>
 
         <main>
-          <article>
+          <article id="right">
+            <section>
             <h2><u>Últimas noticias</u></h2>
             <h4>01/10/2023</h4>
             <p>
@@ -44,31 +47,47 @@
               Además, se rumorea que algunos de los miembros originales del elenco, como Daniel Radcliffe, Emma Watson y Rupert Grint, podrían hacer apariciones especiales en la nueva serie de películas, lo que ha generado aún más expectación entre los seguidores de la saga.
               La noticia ha generado un gran revuelo en el mundo mágico y los fanáticos de Harry Potter están ansiosos por sumergirse una vez más en este emocionante universo. ¡Estén atentos para más detalles a medida que se revelen!
             </p>
-          </article>
-          <aside><!--Esto iría al lado del anterior article con CSS-->
-            <img src="./img/nuevapelicula.png" alt="Imagen del teaser de las nuevas películas" width="500" height="283">
-          </aside>
-          <article>
+          </section>
+          <section>
             <h2><u>Noticias anteriores</u></h2>
               <h4>15/09/2023</h4>
               <p>Según fuentes no oficiales, estos podrían ser los pròximos estrenos sobre el mundo de Harry Potter:</p>
               <ol><!--Para crear una lista numerada-->
                 <li><h4>Serie de TV sobre los Orígenes de Hogwarts:</h4>
-                  Una serie de televisión que explora la fundación y los primeros años de la escuela de magia de Hogwarts. La historia seguiría a los fundadores, como Godric Gryffindor, Salazar Slytherin, Helga Hufflepuff y Rowena Ravenclaw, mientras establecen la escuela y enfrentan desafíos en el mundo mágico.</li>
-
+                  <p>
+                    Una serie de televisión que explora la fundación y los primeros años de la escuela de magia de Hogwarts. La historia seguiría a los fundadores, como Godric Gryffindor, Salazar Slytherin, Helga Hufflepuff y Rowena Ravenclaw, mientras establecen la escuela y enfrentan desafíos en el mundo mágico.
+                  </p>
+                </li>
+                  
                 <li><h4>Trilogía de Películas sobre las Reliquias de la Muerte:</h4>
-                  Una serie de tres películas que se centra en la historia de las Reliquias de la Muerte, los objetos mágicos que desempeñaron un papel crucial en la lucha contra Lord Voldemort. La trilogía exploraría la búsqueda de Harry, Ron y Hermione para encontrar y destruir las Reliquias.</li>
+                  <p>
+                    Una serie de tres películas que se centra en la historia de las Reliquias de la Muerte, los objetos mágicos que desempeñaron un papel crucial en la lucha contra Lord Voldemort. La trilogía exploraría la búsqueda de Harry, Ron y Hermione para encontrar y destruir las Reliquias.
+                  </p>
+                </li>
 
                 <li><h4>Miniserie sobre la Generación de los Hijos de Harry Potter:</h4>
-                    Una miniserie que sigue las aventuras y desafíos de la próxima generación de magos, incluyendo a los hijos de Harry, Ron, Hermione y otros personajes icónicos. La historia podría centrarse en sus años en Hogwarts y las nuevas amenazas que enfrentan.</li>
+                  <p>
+                    Una miniserie que sigue las aventuras y desafíos de la próxima generación de magos, incluyendo a los hijos de Harry, Ron, Hermione y otros personajes icónicos. La historia podría centrarse en sus años en Hogwarts y las nuevas amenazas que enfrentan.
+                  </p>
+                </li>
 
                 <li><h4>Película Animada de "Quidditch a través de los tiempos":</h4>
-                  Una película animada que explora el emocionante mundo del quidditch, el deporte mágico favorito de los magos. La historia seguiría a un joven jugador de quidditch mientras se abre camino desde la escuela hasta el profesionalismo.</li>
+                  <p>
+                    Una película animada que explora el emocionante mundo del quidditch, el deporte mágico favorito de los magos. La historia seguiría a un joven jugador de quidditch mientras se abre camino desde la escuela hasta el profesionalismo.
+                  </p>
+                </li>
 
                 <li><h4>Spin-off sobre los Orígenes de los Mortífagos:</h4>
-                  Una película o serie que se sumerge en la historia de cómo Lord Voldemort reunió a su séquito de seguidores leales, los Mortífagos. La historia seguiría a personajes clave como Bellatrix Lestrange y Severus Snape mientras toman la decisión de unirse a las filas de Voldemort.</li>
+                  <p>
+                    Una película o serie que se sumerge en la historia de cómo Lord Voldemort reunió a su séquito de seguidores leales, los Mortífagos. La historia seguiría a personajes clave como Bellatrix Lestrange y Severus Snape mientras toman la decisión de unirse a las filas de Voldemort.
+                  </p>
+                </li>
               </ol>
+          </section>
           </article>
+          <aside><!--Esto iría al lado del anterior article con CSS-->
+            <img src="./img/nuevapelicula.png" alt="Imagen del teaser de las nuevas películas" width="500" height="283">
+          </aside>
         </main>
 
         <footer>

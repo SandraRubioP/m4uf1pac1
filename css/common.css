@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html{
+    background-color: rgba(100, 149, 237, 0.5);
+}
+
+header{
+    padding: 0;
+    background-image: url('../img/logofanzone.jpg');
+    height: 400px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header img{
+    position: relative;
+    left: 25%;
+}
+
+nav {
+    background-color: rgba(100, 149, 237, 1);
+    width: 100%;
+    height: 4em;
+    text-align: center;
+    position: sticky;
+    border: 5px solid rgba(72, 108, 175, 0.5);
+}
+nav ul {
+    position: relative;
+    top: 1em;
+}
+nav li {
+    display: inline-block;
+    margin-right: 4em;
+}
+li a {
+    text-decoration: none;
+    font-size: x-large;
+    color: darkblue;
+    font-weight: bold;
+}
+
+footer{
+    background-color: white;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-style: normal;
+}

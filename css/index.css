@@ -1,0 +1,49 @@
+main{
+    height: 1200px;
+}
+article {
+    float: right;
+    max-width: 60%;
+}
+main aside {
+    float: left;
+    height: 400 px;
+ }
+
+ aside img{
+    text-align: center;
+    margin: 2em 0 0 2em;
+    border: 1px solid rgba(100, 178, 237, 0);
+    border-radius: 10px;
+    width: fit-content;
+ } 
+
+ section {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: 2px solid rgb(127, 202, 202);
+    background-color: rgba(100, 178, 237, 0.5);
+    border-radius: 10px;
+ }
+
+ h2 {
+    padding: 10px;
+ }
+ h4 {
+    padding: 5px;
+    display: inline-block;
+ }
+
+ p {
+    text-align: justify;
+    padding: 5px;
+    line-height: 1.5em;
+    font-size: large;
+ }
+
+ ol li{
+    list-style-position: inside;
+    padding-left: 10px;
+    font-size: large;
+ }
+
