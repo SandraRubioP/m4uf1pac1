@@ -1,0 +1,36 @@
+
+main{
+    margin-top: 1em;
+    margin-bottom: 5em;
+    background-color: rgba(220, 229, 245, 0.7);
+}
+
+article{
+    line-height:1.5em;
+}
+
+article h2{
+    padding: 0.5em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    background: radial-gradient(rgb(78, 134, 220),rgba(220, 229, 245, 0), rgba(220, 229, 245, 0));
+}
+
+ul li{
+    list-style-type: square;
+    list-style-image: url('../img/icono.png');
+    list-style-position: inside;
+    padding: 0;;
+}
+
+ol > li{
+    padding: 0.5em;
+    list-style-type: upper-roman;
+}
+
+li, p{
+    font-size: large;
+    text-align: justify;
+}

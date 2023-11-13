@@ -1,0 +1,40 @@
+article h1{
+    padding: 0.5em;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    background: radial-gradient(rgb(78, 134, 220),rgba(220, 229, 245, 0), rgba(220, 229, 245, 0));
+    margin-bottom: 0.5em;   
+}
+
+article{
+    text-align:center;
+    margin-bottom: 2em;
+}
+
+section{
+    display: inline-block;
+    text-align: center;
+    width: 750px;
+    background: radial-gradient(rgb(128, 216, 216),rgb(217, 255, 255), rgba(255, 255, 255, 0.919));
+    border: 2px solid rgb(157, 199, 199);
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+#grande{
+    width: 1150px;
+}
+
+section h3{
+    text-align: center;
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+section img{
+    margin-left: 25px;
+    margin-bottom: 25px;
+    border: 10px ridge rgb(149, 149, 149);
+}

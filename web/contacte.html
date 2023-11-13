@@ -11,10 +11,11 @@
         <link rel="icon" href="../img/logopagina.jpg">
 
         <link rel="stylesheet" type="text/css" href="../css/common.css" />
+        <link rel="stylesheet" type="text/css" href="../css/contacte.css" />
     </head>
     <body>
         <header>
-            <img src="../img/logofanzone.jpg" alt="Logo del club de fans" width="700" height="241">
+            <h1>Harry Potter FanZone</h1>
         </header>
         
         <nav> <!--Menú de navegación, _self abre enlaces en la misma pestaña--><!--Tendría que ir como ul o ol y luego se arregla con CSS para q se vea bonito-->
@@ -34,28 +35,43 @@
         </nav>
 
         <main>
-            <article>
-                <h2>Datos de Contacto</h2>
-                <h4><u>Club de fans de Harry Potter</u></h4>
-                <a>Teléfono: 666 66 66 66</a>
-                <br>
+            <h2>Datos de Contacto</h2>
+            <article id="contacto">
+                <h4>Club de fans de Harry Potter</h4>
+                <p>Teléfono: 666 66 66 66</p>
                 <a href="mailto:correo@clubfanshp.com">Envianos un correo</a><!--Abre un correo vacío con la direccion indicada en el destinatario-->
                 <br>
                 Dirección: Plaça Josep Maluquer i Salvador, 19, Granollers, Barcelona
                 <br><br>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d372.895846382035!2d2.2889127470772115!3d41.60890524033535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4c7c5876a6455%3A0x464389507d056ea4!2sEscuela%20Educem%20Business!5e0!3m2!1ses!2ses!4v1697123348064!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d372.895846382035!2d2.2889127470772115!3d41.60890524033535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4c7c5876a6455%3A0x464389507d056ea4!2sEscuela%20Educem%20Business!5e0!3m2!1ses!2ses!4v1697123348064!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
                 <!--gogle maps tiene la opcion de crar un enlace embebido para poder utilitzarlo en nuestra web-->
             </article>
 
+            <article id="formulario">
+            <h4>Si lo prefieres, dejanos tus datos y nos pondremos en contacto</h4>
+                <form action="#" method="post">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Introduce tu nombre">
+        
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="correo" id="correo" name="correo" placeholder="Introduce tu correo electrónico" required>
+        
+                    <label for="comentario">Comentario</label>
+                    <textarea id="comentario" name="comentario" rows="8" cols="60" placeholder="Explicanos brevemente por que nos contactas" required></textarea>
+                    
+                    <input id="boton" type="submit" value="Enviar">
+                </form>
+            </article>
         </main>
 
         <footer>
             <hr>
-            <img src="../img/copyright.png" alt="Logo de copyright" width="50" height="50"> <a> All rights reserved</a>
+            <img src="../img/copyright.png" alt="Logo de copyright" width="15" height="15"> <a> All rights reserved</a>
             <hr>
-            <img src="../img/logoinstagram.png" alt="Logo de instagram" width="50" height="50"> <a href="https://www.instagram.com/educem_granollers/" target="_blank"><b>@clubfansHP</b></a>
-            <br>
-            <img src="../img/logofacebook.png" alt="Logo de facebook" width="50" height="50"> <a href="https://www.facebook.com/educemcentresdensenyament" target="_blank"><b>Club de fans de Harry Potter</b></a>
+            <img src="../img/logoinstagram.png" alt="Logo de instagram" width="15" height="15"><a href="https://www.instagram.com/educem_granollers/" target="_blank">@clubfansHP</a>
+          
+            <img src="../img/logofacebook.png" alt="Logo de facebook" width="15" height="15"> <a href="https://www.facebook.com/educemcentresdensenyament" target="_blank">Club de fans de Harry Potter</a>
+            <hr> <!--con _blank se abren los enlaces externos en otra pestaña-->
           </footer>
     </body>
 </html>
