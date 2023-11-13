@@ -1,6 +1,6 @@
 main{
     margin-top: 1em;
-    margin-bottom: 2em;
+    margin-bottom: 5em;
     text-align: center;
 }
 main h2{
@@ -71,7 +71,6 @@ textarea{
 
 #boton{
     font-weight: bold;
-    padding: 0.5;
     height: 2em;
 }
 
